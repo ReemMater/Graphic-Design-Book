@@ -62,7 +62,7 @@ body {
       font-size: 4rem; }
 
   .info-header, #acoordion {
-    width: 90%; } }
+    width: 100%; } }
 @media (max-width: 996px) {
   .mb-resp {
     margin-bottom: 1rem; } }
