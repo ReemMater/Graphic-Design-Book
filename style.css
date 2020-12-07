@@ -53,12 +53,23 @@ body {
     color: #fff; }
     #authors .card:hover .fab {
       color: #fff; }
+ #authors .card .fab {
+      color:  #3292a6; }
 
 #contact {
   margin: 20px;
   padding: 20px;
   border: 2px solid rgba(112, 111, 109, 0.2);
   box-shadow: 1px 1px 20px rgba(112, 111, 109, 0.2); }
+#contact .btn-primary1 {
+   background-color: #3292a6;
+    color: #fff;
+}
+#contact .btn-primary1:hover {
+   background-color: #218195;
+    color: #fff;
+}
+
 
 #main-footer {
   margin: 0 20px;
