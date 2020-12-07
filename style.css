@@ -16,6 +16,11 @@ body {
   margin: 20px;
   border: 2px solid rgba(112, 111, 109, 0.2);
   box-shadow: 1px 1px 20px rgba(112, 111, 109, 0.2); }
+  #boxes .bg-primary1 {
+    background-color: #3292a6; }
+ #boxes .border-primary1{
+          border:1px solid #3292a6;
+      }
 
 .info-header,
 #acoordion {
