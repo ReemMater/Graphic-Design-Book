@@ -60,12 +60,13 @@ body {
     min-height: 500px; }
     #showcase h1 {
       font-size: 4rem; }
-  #about{
-    padding:auto 0;
-  }
+ 
   .info-header, #acoordion {
     width: 100%; } }
 @media (max-width: 996px) {
+   #about{
+    padding:auto 0;
+  }
   .mb-resp {
     margin-bottom: 1rem; } }
 
