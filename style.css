@@ -1,0 +1,70 @@
+body {
+  background: rgba(180, 128, 17, 0.1); }
+
+.navbar {
+  box-shadow: 2px 2px 5px rgba(112, 111, 109, 0.2);
+  background: #fff;
+  opacity: 0.97; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#showcase {
+  min-height: 600px; }
+
+#boxes {
+  margin: 20px;
+  border: 2px solid rgba(112, 111, 109, 0.2);
+  box-shadow: 1px 1px 20px rgba(112, 111, 109, 0.2); }
+
+.info-header,
+#acoordion {
+  width: 70%;
+  margin: auto;
+  border-bottom: 2px solid rgba(180, 128, 17, 0.2); }
+
+#acoordion .card .card-header {
+  cursor: pointer; }
+
+#about {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgba(112, 111, 109, 0.2);
+  box-shadow: 1px 1px 10px rgba(112, 111, 109, 0.2); }
+
+#authors {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgba(112, 111, 109, 0.2);
+  box-shadow: 1px 1px 20px rgba(112, 111, 109, 0.2); }
+  #authors img {
+    margin-top: -50px; }
+  #authors .card:hover {
+    background-color: #3292a6;
+    color: #fff; }
+    #authors .card:hover .fab {
+      color: #fff; }
+
+#contact {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid rgba(112, 111, 109, 0.2);
+  box-shadow: 1px 1px 20px rgba(112, 111, 109, 0.2); }
+
+#main-footer {
+  margin: 0 20px;
+  border-top: 1px solid rgba(180, 128, 17, 0.4); }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .info-header, #acoordion {
+    width: 90%; } }
+@media (max-width: 996px) {
+  .mb-resp {
+    margin-bottom: 1rem; } }
+
+/*# sourceMappingURL=style.css.map */
