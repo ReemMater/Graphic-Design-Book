@@ -12,6 +12,10 @@ body {
 #showcase {
   min-height: 600px; }
 
+.text-primary1{
+  color: #3292a6;
+}
+
 #boxes {
   margin: 20px;
   border: 2px solid rgba(112, 111, 109, 0.2);
